@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    transition: all;
+
+}
+    body{
+    background: rgb(3, 3, 44);
+    
+/* 
+    background-image: url(imagen/imagen5.jpg);
+    background-size: cover; */
+}
+header{
+    text-align: center;
+    padding: 1rem;
+    font-size: 2rem;
+    animation-name: parafo;
+    animation-duration: 50s;
+    animation-iteration-count: infinite;
+    background: transparent;
+    color: white;
+}
+
+@keyframes parafo{
+
+    10%{border-bottom:solid 2px rgb(114, 234, 2);}
+    60%{border-bottom:solid 2px rgb(6, 226, 200);}
+    60%{color: yellow;}
+    
+    }
+nav{
+    background: transparent;
+}
+nav{
+    animation-name: navega;
+    animation-duration: 300s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes navega{
+
+    10%{border-bottom:solid 3px rgb(114, 234, 2);}
+    60%{border-bottom:solid 3px rgb(6, 226, 200);}
+    
+    }
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    list-style: none;
+}
+li{
+    margin: 10px;
+    color: rgb(239, 244, 244);
+    font-size: 20px;
+}
+i{
+    color: rgb(7, 20, 199);
+    height: 10px;   
+}
+
+a{
+    text-align: center;
+    font-size: 20px;
+    padding: 4px;
+    text-decoration: none;
+}
+.menu {
+    width: 10rem;
+    height: 30rem;
+    float: left;
+    background: black;
+    opacity: 0.9;
+margin: 2px 6px ;
+
+height: 110vh;
+    }
+.menu a{
+    width: 10rem;
+    position: absolute;
+    text-decoration: none;
+    left: -140px;
+    transition: 0.6s;
+    z-index: 12;
+    
+    }
+    .menu a:hover{
+        left: 0;
+    
+    }
+    .uno{
+    bottom: 400px;
+    background: rebeccapurple;
+    border-radius: 4px;
+    height: 20px;
+    }
+    .uno:hover{
+    background: rgb(255, 255, 255);
+    }
+    .dos{
+    bottom: 360px;
+    background: rgb(222, 241, 11);
+    border-radius: 4px;
+    height: 20px;
+    }
+    .dos:hover{
+    background: white;
+    }
+    .tres{
+    bottom: 320px;
+    background: rgb(6, 207, 183);
+    border-radius: 4px;
+    height: 20px;
+    }
+    .tres:hover{
+    background: white;
+        
+    }
+    .cuatro{
+        bottom: 278px;
+        background: rgb(8, 8, 232);
+        border-radius: 4px;
+        height: 20px;
+     }
+     .cuatro:hover{
+    background: white;
+            
+    }
+     .cinco{
+     bottom: 240px;
+     background: green;
+     border-radius: 4px;
+     height: 20px;
+    }
+    .cinco:hover{
+        background: white;
+                
+        }
+    .seis{
+    bottom: 200px;
+    background: lightcoral;
+    border-radius: 4px;
+    height: 20px;
+    }
+    .seid:hover{
+    background: white;
+
+}
+.login{
+    width: 100%;
+    margin: 90px px;
+    border-radius: 100px;    
+}
+ .cajascompras{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    border-radius: 5px;
+    gap: 10px;
+
+    
+}     
+label{
+    color: rgb(246, 250, 8);
+}
+
+.zapatos {
+    display: grid;
+    grid-template-columns: repeat(2, 50%) ;
+    margin: 4px 0px 4px 6px;
+    box-shadow: 10px 0px 20px rgb(0, 17, 255)  ;
+}   
+.zapatos img{
+    width: 90%;
+    
+}
+img:hover{
+    transform: scale(1.1);
+    transition: 2s;
+}
+.camizas {
+    display: grid;
+    grid-template-columns: repeat(2, 50%) ;
+    margin: 4px 0px 4px 6px;
+    box-shadow: 1px 10px 40px rgb(74, 250, 5)  ;
+}   
+.camizas img{
+    width: 90%;
+}
+.pantalones {
+    display: grid;
+    grid-template-columns: repeat(2, 50%) ;
+    margin: 4px 0px 4px 6px;
+    box-shadow:  12px 2px 20px rgb(214, 7, 233) ;
+}   
+.pantalones img{
+    width: 90%;
+}
+.chaquetas {
+    display: grid;
+    grid-template-columns: repeat(2, 50%) ;
+    margin: 4px 0px 4px 6px;
+    box-shadow:  12px 2px 20px rgb(214, 7, 233) ;
+}   
+.chaquetas img{
+    width: 90%;
+}
+.zap {
+    display: grid;
+    grid-template-columns: repeat(2, 50%) ;
+    margin: 4px 0px 4px 6px;
+    box-shadow: 10px 0px 20px rgb(0, 17, 255)  ;
+}   
+.zap img{
+    width: 90%;
+}
+.vermudas{
+    display: grid;
+    grid-template-columns: repeat(2, 50%) ;
+    margin: 4px 0px 4px 6px;
+    box-shadow: 1px 10px 20px rgb(0, 1, 14)  ;
+}   
+.vermudas img{
+    width: 90%;
+}
+ img{
+    width: 70%;
+}
+ 
+button{
+
+    font-size: 1rem;
+    border-radius: 4px;
+    margin: -2px 2px 2px 70px;
+    height: 30px;
+    width: 80px;
+    
+}
+button:hover{
+    background: rgb(6, 207, 183);
+    border: none;
+}
+
+
+ #canti{
+    font-size: 10px;
+    color: red;
+ }
+ span{
+    color: aqua;
+ }
+ #mensaje1{
+    
+    font-size: 30px;
+    margin: 2px 2px 2px 300px;
+    padding: 10px;
+ }
+ label{
+    margin: 2px 2px 2px 20px;
+    padding: 4px;
+ }
